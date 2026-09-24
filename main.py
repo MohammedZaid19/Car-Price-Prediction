@@ -86,8 +86,8 @@ rmse = np.sqrt(
 print("\n========== MODEL RESULTS ==========")
 print("R² Score :", round(r2, 4))
 print("R² %     :", round(r2 * 100, 2), "%")
-print("MAE      : ₹", round(mae, 2))
-print("RMSE     : ₹", round(rmse, 2))
+print("MAE      :", round(mae, 2))
+print("RMSE     :", round(rmse, 2))
 # ==========================================
 # 11. USER INPUT
 # ==========================================
